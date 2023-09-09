@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Каталог</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <nav>
-      <li><a href="/index.html">Главная</a></li>
-      <li><a href="/info/about.html">Обо мне</a></li>
-      <li><a href="/request.htm">Оставить заявку</a></li>
-      <li><a href="/catalog/catalog.html">Каталог</a></li>
-      <li><a href="/contacts.html">Контакты</a></li>
+      <li><a href="/index.html" class="link">Главная</a></li>
+      <li><a href="/info/about.html" class="link">Обо мне</a></li>
+      <li><a href="/request.htm" class="link">Оставить заявку</a></li>
+      <li><a href="/catalog/catalog.html" class="link">Каталог</a></li>
+      <li><a href="/contacts.html" class="link">Контакты</a></li>
     </nav>
-    <h1>Каталог</h1>
-    <p>
+    <h1 class="header1">Каталог</h1>
+    <p class="paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquid
       laboriosam alias delectus hic, ea ipsam excepturi, sint natus, quos
       veniam! Reiciendis explicabo quidem ea asperiores neque libero debitis
@@ -32,14 +33,26 @@
       possimus rem optio omnis dicta repudiandae cumque nihil, libero, dolorem
       nam quis velit distinctio.
     </p>
-    <img src="/img/slice-tasty-tart-with-jam.jpg" alt="pie" width="200px">
-    <h2>Вишневый пирог</h2>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <img src="/img/mango-shake-fresh-tropical-fruit-smoothies.jpg" alt="shake" width="200px">
-    <h2>Манго шейк</h2>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <img src="/img/donut.png" alt="donut" width="200px">
-    <h2>Ванильный пончик</h2>
-    <p>Lorem ipsum dolor sit amet.</p>
+    <section class="catalog">
+      <div class="card">
+        <img src="/img/slice-tasty-tart-with-jam.jpg" alt="pie" width="200px" />
+        <h2 class="header2">Вишневый пирог</h2>
+        <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="card">
+        <img
+          src="/img/mango-shake-fresh-tropical-fruit-smoothies.jpg"
+          alt="shake"
+          width="200px"
+        />
+        <h2 class="header2">Манго шейк</h2>
+        <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="card">
+        <img src="/img/donut.png" alt="donut" width="200px" />
+        <h2 class="header2">Ванильный пончик</h2>
+        <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
   </body>
 </html>
